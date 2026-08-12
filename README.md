@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/beginner-friendly-ff69b4" alt="beginner friendly">
 </p>
 
+<p align="center">
+  <img src="demo.png" alt="Sublist3r running natively on macOS" width="640">
+</p>
+
 ---
 
 ## ✨ What is this?
