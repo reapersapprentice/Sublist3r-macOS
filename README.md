@@ -80,6 +80,15 @@ for any damage, loss or misuse.
 
 This is an independent macOS conversion by **C.Studva**. The underlying program is open-source software distributed under the GNU General Public License; that license is kept in this repository (see `LICENSE`/`COPYING` and `NOTICE`).
 
+## 🍎 More macOS conversions by C.Studva
+
+Same idea — popular Linux tools, packaged to run **natively on your Mac**:
+
+- [**Hash-Buster**](https://github.com/reapersapprentice/Hash-Buster-macOS) — identify & crack hashes in seconds
+- [**theHarvester**](https://github.com/reapersapprentice/theHarvester-macOS) — OSINT emails, subdomains & names for a domain
+- [**Eagle Eye**](https://github.com/reapersapprentice/EagleEye-macOS) — find someone's social profiles from a photo
+- [**httptunnel**](https://github.com/reapersapprentice/httptunnel-macOS) — tunnel a data stream over HTTP
+
 ---
 
 <p align="center"><sub>macOS conversion crafted by <b>C.Studva</b>.</sub></p>
