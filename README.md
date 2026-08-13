@@ -1,12 +1,14 @@
 <h1 align="center">Sublist3r <sub>· for macOS</sub></h1>
 
-<p align="center"><b>Discover a domain's subdomains fast — from your Mac.</b></p>
+<p align="center"><b>Fast subdomain enumeration on macOS — Apple Silicon & Intel native.</b></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS-000000?logo=apple&logoColor=white" alt="macOS">
   <img src="https://img.shields.io/badge/Intel%20%26%20Apple%20Silicon-supported-success" alt="Apple Silicon & Intel">
+  <img src="https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white" alt="Python 3.9+">
   <img src="https://img.shields.io/badge/license-GPL--2.0-blue" alt="license">
   <img src="https://img.shields.io/badge/beginner-friendly-ff69b4" alt="beginner friendly">
+  <img src="https://img.shields.io/github/stars/reapersapprentice/Sublist3r-macOS?style=social" alt="GitHub stars">
 </p>
 
 <p align="center">
@@ -53,9 +55,29 @@ That's it — you're running **Sublist3r** on your Mac. 🎉
 
 ## 🧰 What it can do
 
-- Fast subdomain discovery across many public sources
-- Optional brute-force mode for deeper coverage
-- Simple, single-command output you can feed into other tools
+- **Fast subdomain discovery** across many public sources (Google, Bing, Yahoo, Baidu, Ask, Netcraft, VirusTotal, SSL Certificates, and more)
+- **Optional brute-force mode** for deeper coverage using an integrated wordlist
+- **Simple, single-command output** you can pipe into other tools (Nmap, httpx, Aquatone, etc.)
+- **Native macOS support** — no Docker, no VM, no Linux required
+
+## 📝 Usage examples
+
+```bash
+# Basic subdomain enumeration
+python3 sublist3r.py -d example.com
+
+# Save results to a file
+python3 sublist3r.py -d example.com -o results.txt
+
+# Use specific search engines
+python3 sublist3r.py -d example.com -e google,virustotal
+
+# Enable brute-force mode
+python3 sublist3r.py -d example.com -b
+
+# Show help and all options
+python3 sublist3r.py -h
+```
 
 ## 💻 What you need
 
@@ -84,14 +106,18 @@ for any damage, loss or misuse.
 
 This is an independent macOS conversion by **C.Studva**. The underlying program is open-source software distributed under the GNU General Public License; that license is kept in this repository (see `LICENSE`/`COPYING` and `NOTICE`).
 
-## 🍎 More macOS conversions by C.Studva
+## 🍎 More macOS Security Tools by C.Studva
 
-Same idea — popular Linux tools, packaged to run **natively on your Mac**:
+> **Linux-only security tools, converted to run natively on your Mac — no VM required.**
 
-- [**Hash-Buster**](https://github.com/reapersapprentice/Hash-Buster-macOS) — identify & crack hashes in seconds
-- [**theHarvester**](https://github.com/reapersapprentice/theHarvester-macOS) — OSINT emails, subdomains & names for a domain
-- [**Eagle Eye**](https://github.com/reapersapprentice/EagleEye-macOS) — find someone's social profiles from a photo
-- [**httptunnel**](https://github.com/reapersapprentice/httptunnel-macOS) — tunnel a data stream over HTTP
+| Tool | What it does | Link |
+|------|-------------|------|
+| 🔓 **Hash-Buster** | Identify & crack hashes in seconds | [![GitHub](https://img.shields.io/badge/-repo-181717?logo=github)](https://github.com/reapersapprentice/Hash-Buster-macOS) |
+| 🌐 **theHarvester** | OSINT — harvest emails, subdomains & names for a domain | [![GitHub](https://img.shields.io/badge/-repo-181717?logo=github)](https://github.com/reapersapprentice/theHarvester-macOS) |
+| 👁️ **Eagle Eye** | Find someone's social profiles from a photo | [![GitHub](https://img.shields.io/badge/-repo-181717?logo=github)](https://github.com/reapersapprentice/EagleEye-macOS) |
+| 🔗 **httptunnel** | Tunnel a data stream over HTTP | [![GitHub](https://img.shields.io/badge/-repo-181717?logo=github)](https://github.com/reapersapprentice/httptunnel-macOS) |
+
+> ⭐ **If any of these help you, a star goes a long way!**
 
 ---
 
